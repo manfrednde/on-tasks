@@ -1,0 +1,15 @@
+{
+    "$schema": "rackhd-task-schema.json",
+    "copyright": "Copyright 2016, EMC, Inc.",
+    "title": "Active Directory Configuration",
+    "description": "The schema for Active Directory Configuration",
+    "describeJob": "Job.Active.Directory.Configuration",
+    "allOf": [
+        { "$ref": "common-task-options.json#/definitions/Options" },
+        {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    ]
+}
